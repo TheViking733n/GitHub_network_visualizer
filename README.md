@@ -2,7 +2,7 @@
 Get a dynamic graph like representation of your GitHub network in your browser. You can also drag the nodes to see the physics simulation.
 
 ## How it works?
-The [visualize.py](/visualize.py?raw=true) does a BFS (Breadth-first search) on all the followers and following of the root handle. The BFS also keeps a visited check, so that the network is a tree, because a graph network was very messy it was hard to analyse it. To stop the BFS, there is a MAX_DEPTH check in the code. You can also change the MAX_DEPTH to see a bigger network, provided your browser can render it.
+The [visualize.py](/visualize.py?raw=true) does a BFS (Breadth-first search) on all the followers and following of the root node. The BFS also keeps a visited check, so that the network is a tree, because a graph network was very messy and hard to analyse. To stop the BFS, there is a MAX_DEPTH check in the code. You can also change the MAX_DEPTH to see a bigger network, provided your browser can render it.
 
 ## Dependencies
 - [requests](https://pypi.org/project/requests/)
